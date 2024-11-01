@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 62.5%;
+    background: radial-gradient( 50% 50% at 100% 0, #47d3ff 0% 5%, #474bff 6% 15%, #47d3ff 16% 25%, #474bff 26% 35%, #47d3ff 36% 45%, #474bff 46% 55%, #47d3ff 56% 65%, #474bff 66% 75%, #47d3ff 76% 85%, #474bff 86% 95%, #0000 96%), radial-gradient( 50% 50% at 0 100%, #47d3ff 0% 5%, #474bff 6% 15%, #47d3ff 16% 25%, #474bff 26% 35%, #47d3ff 36% 45%, #474bff 46% 55%, #47d3ff 56% 65%, #474bff 66% 75%, #47d3ff 76% 85%, #474bff 86% 95%, #0000 96%), radial-gradient( 50% 50%, #47d3ff 0% 5%, #474bff 6% 15%, #47d3ff 16% 25%, #474bff 26% 35%, #47d3ff 36% 45%, #474bff 46% 55%, #47d3ff 56% 65%, #474bff 66% 75%, #47d3ff 76% 85%, #474bff 86% 95%, #0000 96%), radial-gradient( 50% 50%, #47d3ff 0% 5%, #474bff 6% 15%, #47d3ff 16% 25%, #474bff 26% 35%, #47d3ff 36% 45%, #474bff 46% 55%, #47d3ff 56% 65%, #474bff 66% 75%, #47d3ff 76% 85%, #474bff 86% 95%, #0000 96%) 32px 32px;
+    background-size: 64px 64px;
+    background-color: #47d3ff;
+}
+
+.parent-container {
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem 4rem;
+    border: 2px solid #fff;
+    border-radius: 1rem;
+}
+
+h1 {
+    font-size: 2.2rem;
+    color: #fff;
+    text-align: center;
+}
+
+span {
+    background-image: url(./img/colourful.gif);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+}
+
+.parent-container p:first-of-type {
+    color: #fff;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-block: 1rem 1.1rem;
+}
+
+.second-container {
+    text-align: center;
+}
+
+button {
+    background: #0d26e7;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    transition: all 584ms ease-in-out;
+}
+
+button:hover {
+    color: #0d26e7;
+    background-color: #fff;
+}
+
+button:active {
+    opacity: 0.6;
+}
